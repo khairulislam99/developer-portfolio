@@ -13,25 +13,36 @@ h3{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
+
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    
 }
 .half-width img{
     width: 80%;
+    margin-top: 10px;
 }
 p{
     font-weight: 400px;
 }
 .link-button{
     text-decoration: none;
-    background-color: yellow;
+    background-color: rgb(234, 0, 255);
     padding: 8px 32px;
     border-radius: 8px;
-    font-weight: 700px;
+    font-weight: 900px;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+#hello{
+    font-size: 100px;
+}
+.dream big{
+    background-image: url(images/my-bg2.png);
+    background-position: right;
 }
